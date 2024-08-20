@@ -21,12 +21,16 @@ def lengthOfLongestSubstring(s):
     :rtype: int
     """
     new_string = ''
-    print(s)
-    for i in s:
-        if i not in new_string:
-            new_string += i
-            print(new_string)
-    print(new_string)
+    length = 0
+    max_length = 0
+    for i in range(len(s)):
+        if s[i] not in new_string:
+            length += 1
+        else:
+            
+            if max_length < length:
+                max_length = length
+
     return new_string
 
 lengthOfLongestSubstring("pwwkew")
