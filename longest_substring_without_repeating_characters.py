@@ -8,13 +8,33 @@
 
 #
 # class Solution(object):
-#     def lengthOfLongestSubstring(self, s):
-#         """
-#         :type s: str
-#         :rtype: int
-#         """
+#    def lengthOfLongestSubstring(self, s):
+#     """
+#     :type s: str
+#     :rtype: int
+#     """
+#     new_string = ''
+#     length = 0
+#     max_length = 0
+#     while len(s) > 0:
+#         for i in range(len(s)):
+#             if s[i] not in new_string:
+#                 length += 1
+#                 new_string += s[i]
+#             else:
+#                 match_index = new_string.find(s[i])
+#                 if max_length < length:
+#                     max_length = length
+#
+#                 if len(s) > 1:
+#                     s = s[match_index+1]
+#                     new_string=""
+#                 else:
+#                     s = []
+#                 break
+#     return max_length
 
-
+#
 def lengthOfLongestSubstring(s):
     """
     :type s: str
@@ -23,14 +43,23 @@ def lengthOfLongestSubstring(s):
     new_string = ''
     length = 0
     max_length = 0
-    for i in range(len(s)):
-        if s[i] not in new_string:
-            length += 1
-        else:
-            
-            if max_length < length:
-                max_length = length
+    while len(s) > 0:
+        for i in range(len(s)):
+            if s[i] not in new_string:
+                length += 1
+                new_string += s[i]
+            else:
+                match_index = new_string.find(s[i])
+                if max_length < length:
+                    max_length = length
 
-    return new_string
+                if len(s) > 1:
+                    s = s[(match_index+1):]
+                    new_string = ""
+                    length = 0
+                else:
+                    s = []
+                break
+    return max_length
 
-lengthOfLongestSubstring("pwwkew")
+print(lengthOfLongestSubstring("abcabcbb"))
