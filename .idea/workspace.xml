@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def553ff-ea52-45ac-8bdf-a1b66ab56142" name="Changes" comment="26. Remove Duplicates from Sorted Array">
-      <change afterPath="$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26. Remove Duplicates from Sorted Array.py" beforeDir="false" />
+    <list default="true" id="def553ff-ea52-45ac-8bdf-a1b66ab56142" name="Changes" comment="Remove redundant class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +211,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724502006302</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Solution">
+      <option name="closed" value="true" />
+      <created>1724503382702</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724503382702</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Remove redundant class">
+      <option name="closed" value="true" />
+      <created>1724503445905</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724503445905</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -229,7 +245,9 @@
     <MESSAGE value="created" />
     <MESSAGE value="Rename and add first task" />
     <MESSAGE value="26. Remove Duplicates from Sorted Array" />
-    <option name="LAST_COMMIT_MESSAGE" value="26. Remove Duplicates from Sorted Array" />
+    <MESSAGE value="Solution" />
+    <MESSAGE value="Remove redundant class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove redundant class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,7 +259,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

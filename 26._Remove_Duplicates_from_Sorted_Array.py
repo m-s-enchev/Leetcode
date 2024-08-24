@@ -29,13 +29,16 @@ class Solution(object):
 
 
 def remove_duplicates(nums):
+
     unique = []
     for i in range(len(nums)):
         if nums[i] not in unique:
             unique.append(nums[i])
+        else:
+            nums[i] = 300
     k = len(unique)
-    nums = unique
+    nums.sort()
     print(nums)
     return k
 
-print (remove_duplicates([0,0,1,1,1,2,2,3,3,4]))
+print (remove_duplicates([1,1,2]))
