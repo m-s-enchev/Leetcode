@@ -29,7 +29,6 @@ class Solution(object):
 
 
 def remove_duplicates(nums):
-
     unique = []
     for i in range(len(nums)):
         if nums[i] not in unique:
@@ -38,7 +37,6 @@ def remove_duplicates(nums):
             nums[i] = 300
     k = len(unique)
     nums.sort()
-    print(nums)
     return k
 
 print (remove_duplicates([1,1,2]))
