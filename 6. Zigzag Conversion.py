@@ -31,3 +31,13 @@ def convert(s, numRows):
     :type numRows: int
     :rtype: str
     """
+    columns = []
+    for i in range(numRows):
+        column = "column"+str(i)
+        columns.append(column)
+
+    for column in columns:
+
+
+
+convert("asdfasdf", 4)
