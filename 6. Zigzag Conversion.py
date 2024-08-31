@@ -35,7 +35,12 @@ def convert(s, numRows):
     :rtype: str
     """
     rows = [[] for  _ in range(numRows)]
-    cycles = ceil(len(s)/(2*numRows-2))
+    chars_per_cycle = 2*numRows-2
+    if chars_per_cycle == 0:
+        chars_per_cycle = 1
+
+    cycles_float = len(s)/chars_per_cycle
+    cycles = int(cycles_float+1)
     indicies = []
     front = [x for x in range(numRows)]
     back = [y for y in range(numRows-2,0,-1)]
@@ -54,4 +59,4 @@ def convert(s, numRows):
     return result_string
 
 
-convert("PAYPALISHIRING", 4)
+print(convert("PAYPALISHIRING", 3))
