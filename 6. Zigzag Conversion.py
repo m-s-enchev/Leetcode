@@ -24,6 +24,7 @@
 # A   L S  I G
 # Y A   H R
 # P     I
+
 from math import ceil
 
 
@@ -33,27 +34,24 @@ def convert(s, numRows):
     :type numRows: int
     :rtype: str
     """
-    rows = [numRows * []]
-    cycles = ceil((len(s) / numRows)/2)
-    print(cycles)
+    rows = [[] for  _ in range(numRows)]
+    cycles = ceil(len(s)/(2*numRows-2))
     indicies = []
     front = [x for x in range(numRows)]
     back = [y for y in range(numRows-2,0,-1)]
-    print(front)
-    print(back)
     for i in range(cycles):
-        indicies.append(front)
-        indicies.append(back)
+        indicies.extend(front)
+        indicies.extend(back)
     for j in range (len(s)):
         row_index = indicies[j]
         char_from_s = s[j]
         rows[row_index].append(char_from_s)
+    result = []
+    for k in range(numRows):
+        result.extend(rows[k])
 
-
-
-
-
-
+    result_string = "".join(result)
+    return result_string
 
 
 convert("PAYPALISHIRING", 4)
