@@ -25,8 +25,6 @@
 # Y A   H R
 # P     I
 
-from math import ceil
-
 
 def convert(s, numRows):
     """
@@ -34,29 +32,22 @@ def convert(s, numRows):
     :type numRows: int
     :rtype: str
     """
-    rows = [[] for  _ in range(numRows)]
-    chars_per_cycle = 2*numRows-2
-    if chars_per_cycle == 0:
-        chars_per_cycle = 1
-
+    rows = numRows * [""]
+    front = [x for x in range(numRows)]
+    back = [y for y in range(numRows-2,0,-1)]
+    front.extend(back)
+    chars_per_cycle = len(front)
     cycles_float = len(s)/chars_per_cycle
     cycles = int(cycles_float+1)
     indicies = []
-    front = [x for x in range(numRows)]
-    back = [y for y in range(numRows-2,0,-1)]
     for i in range(cycles):
         indicies.extend(front)
-        indicies.extend(back)
     for j in range (len(s)):
         row_index = indicies[j]
         char_from_s = s[j]
-        rows[row_index].append(char_from_s)
-    result = []
-    for k in range(numRows):
-        result.extend(rows[k])
-
-    result_string = "".join(result)
+        rows[row_index]+=char_from_s
+    result_string = "".join(rows)
     return result_string
 
 
-print(convert("PAYPALISHIRING", 3))
+print(convert("ABCDE", 5))
