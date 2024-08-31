@@ -1,4 +1,5 @@
-# The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+# The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
+# (you may want to display this pattern in a fixed font for better legibility)
 #
 # P   A   H   N
 # A P L S I I G
@@ -23,6 +24,7 @@
 # A   L S  I G
 # Y A   H R
 # P     I
+from math import ceil
 
 
 def convert(s, numRows):
@@ -31,13 +33,27 @@ def convert(s, numRows):
     :type numRows: int
     :rtype: str
     """
-    columns = []
-    for i in range(numRows):
-        column = "column"+str(i)
-        columns.append(column)
+    rows = [numRows * []]
+    cycles = ceil((len(s) / numRows)/2)
+    print(cycles)
+    indicies = []
+    front = [x for x in range(numRows)]
+    back = [y for y in range(numRows-2,0,-1)]
+    print(front)
+    print(back)
+    for i in range(cycles):
+        indicies.append(front)
+        indicies.append(back)
+    for j in range (len(s)):
+        row_index = indicies[j]
+        char_from_s = s[j]
+        rows[row_index].append(char_from_s)
 
-    for column in columns:
 
 
 
-convert("asdfasdf", 4)
+
+
+
+
+convert("PAYPALISHIRING", 4)
