@@ -26,9 +26,16 @@
 
 def reverse(x):
     integer_string= str(x)
-    print(integer_string)
-    reversed = integer_string[len(integer_string)::-1]
+    if integer_string[0] == "-":
+        reversed ="-"+integer_string[:0:-1]
+    else:
+        reversed = integer_string[::-1]
 
-    print(reversed)
+    answer = int(reversed)
+    if (-2**31) <= answer <= (2**31 - 1):
+        return answer
+    else:
+        return 0
 
-reverse(12345)
+
+print(reverse(-123))
