@@ -34,7 +34,8 @@ def convert(s, numRows):
     :rtype: str
     """
     rows = [numRows * []]
-    cycles = ceil((len(s) / numRows)/2)
+    cycles = ceil((len(s) / 2)/numRows)
+    print(len(s))
     print(cycles)
     indicies = []
     front = [x for x in range(numRows)]
@@ -42,10 +43,12 @@ def convert(s, numRows):
     print(front)
     print(back)
     for i in range(cycles):
-        indicies.append(front)
-        indicies.append(back)
+        indicies.extend(front)
+        indicies.extend(back)
+    print(indicies)
     for j in range (len(s)):
         row_index = indicies[j]
+        print(row_index)
         char_from_s = s[j]
         rows[row_index].append(char_from_s)
 
