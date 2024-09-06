@@ -57,6 +57,31 @@ def intToRoman(num):
                 answer_in_roman = numbers_dict[key] + answer_in_roman
     return answer_in_roman
 
-print(intToRoman(1994))
+def intToRoman1(num):
+    list_from_number = list(str(num))
+    answer_in_roman = ""
+    decimal_order_list = [
+        ['I', 'V', 'X'],
+        ['X', 'L', 'C'],
+        ['C', 'D', 'M'],
+        ['M']
+    ]
+    for i in range(len(list_from_number)-1,-1,-1):
+        decimal_position = len(list_from_number)-i-1
+        numbers_list = decimal_order_list[decimal_position]
+        current_digit = int(list_from_number[i])
+        if current_digit < 4:
+            answer_in_roman = current_digit*numbers_list[0] + answer_in_roman
+        elif current_digit == 4:
+            answer_in_roman = numbers_list[0]+numbers_list[1] + answer_in_roman
+        elif current_digit == 5:
+            answer_in_roman = numbers_list[1] + answer_in_roman
+        elif 5 < current_digit < 9:
+            answer_in_roman = numbers_list[1] + numbers_list[0]* (current_digit-5) + answer_in_roman
+        elif current_digit == 9:
+            answer_in_roman = numbers_list[0] + numbers_list[2] + answer_in_roman
+        else:
+            answer_in_roman = numbers_list[2] + answer_in_roman
+    return answer_in_roman
 
-
+print(intToRoman1(3749))
