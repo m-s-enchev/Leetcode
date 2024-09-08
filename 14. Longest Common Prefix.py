@@ -25,15 +25,16 @@ def longestCommonPrefix(strs):
     prefix = strs[0]
     for i in range(1,len(strs)):
         base_length = min(len(strs[i]), len(prefix))
+        if base_length == 0:
+            prefix = ""
+            break
         for j in range(base_length):
+            if j == base_length - 1 and strs[i][j] == prefix[j]:
+                prefix = prefix[:j+1]
+                break
             if strs[i][j] != prefix[j]:
                 prefix = prefix[:j]
-
-
-
-
-
-
+                break
     return prefix
 
-print(longestCommonPrefix(["flower","flow","flight"]))
+print(longestCommonPrefix(["dog","racecar","car"]))
