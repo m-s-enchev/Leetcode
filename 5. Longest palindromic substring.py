@@ -23,21 +23,25 @@
 # s consist of only digits and English letters.
 
 def longestPalindrome(s):
-    longest_palindrome = ""
-
+    longest_palindrome = s[0]
     for j in range(len(s)):
         evaluation = s[j]
-        for i in range(j+1,len(s)):
+        for i in range(j + 1, len(s)):
             evaluation += s[i]
-            first_half = evaluation[:len(evaluation)//2]
-            if len(evaluation)%2 == 0:
-                second_half = evaluation[len(evaluation)/2:len(evaluation)]
+            if evaluation[0] != evaluation[-1]:
+                continue
             else:
-                second_half = evaluation[len(evaluation)/2+1:len(evaluation)]
+                halfpoint = int(len(evaluation) // 2)
+                first_half = evaluation[:halfpoint]
+                if len(evaluation) % 2 == 0:
+                    second_half = evaluation[len(evaluation) - 1:halfpoint - 1:-1]
+                else:
+                    second_half = evaluation[len(evaluation) - 1:halfpoint:-1]
+                if first_half == second_half and len(evaluation) > len(longest_palindrome):
+                    longest_palindrome = evaluation
+    return longest_palindrome
 
-            if first_half == second_half and len(evaluation) > len(longest_palindrome):
-                longest_palindrome = evaluation
-            else:
+print(longestPalindrome('cbbd'))
 
 
 
