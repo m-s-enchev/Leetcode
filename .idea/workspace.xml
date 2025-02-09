@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="def553ff-ea52-45ac-8bdf-a1b66ab56142" name="Changes" comment="Updated solution">
+    <list default="true" id="def553ff-ea52-45ac-8bdf-a1b66ab56142" name="Changes" comment="Longest common">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/26._Remove_Duplicates_from_Sorted_Array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14. Longest Common Prefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/14. Longest Common Prefix.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,29 +33,40 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/m-s-enchev/Leetcode.git&quot;,
-    &quot;accountId&quot;: &quot;043f1b7c-830f-4897-98fd-099a2c0a5b88&quot;
+    &quot;accountId&quot;: &quot;1637b894-140e-4f76-b398-061819f0bd71&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="2kqQMQooaBiAkoLHrj5GDAWW8mp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.12. Integer to Roman.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13. Roman to Integer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14. Longest Common Prefix.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2022. Convert 1D Array Into 2D Array.executor&quot;: &quot;Run&quot;,
     &quot;Python.26. Remove Duplicates from Sorted Array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.26._Remove_Duplicates_from_Sorted_Array (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.26._Remove_Duplicates_from_Sorted_Array.executor&quot;: &quot;Run&quot;,
+    &quot;Python.6. Zigzag Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7. Reverse Integer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9. Palindrome Number.executor&quot;: &quot;Run&quot;,
     &quot;Python.Valid_Parentheses.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.26._Remove_Duplicates_from_Sorted_Array">
-    <configuration name="26._Remove_Duplicates_from_Sorted_Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.14. Longest Common Prefix">
+    <configuration name="12. Integer to Roman" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,7 +79,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Write_code\Leetcode\26._Remove_Duplicates_from_Sorted_Array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12. Integer to Roman.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Valid_Parentheses" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13. Roman to Integer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,7 +101,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Valid_Parentheses.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/13. Roman to Integer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longest_substring_without_repeating_characters" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="14. Longest Common Prefix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leetcode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,7 +123,51 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Write_code\Leetcode\longest_substring_without_repeating_characters.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/14. Longest Common Prefix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="2022. Convert 1D Array Into 2D Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022. Convert 1D Array Into 2D Array.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9. Palindrome Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9. Palindrome Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,41 +198,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="two_sum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/two_sum.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.26._Remove_Duplicates_from_Sorted_Array" />
-        <item itemvalue="Python.Valid_Parentheses" />
-        <item itemvalue="Python.two_sum" />
-        <item itemvalue="Python.longest_substring_without_repeating_characters" />
+        <item itemvalue="Python.14. Longest Common Prefix" />
+        <item itemvalue="Python.12. Integer to Roman" />
+        <item itemvalue="Python.13. Roman to Integer" />
+        <item itemvalue="Python.9. Palindrome Number" />
+        <item itemvalue="Python.2022. Convert 1D Array Into 2D Array" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-abccbe9d933a-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.20224.428" />
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
       </set>
     </attachedChunks>
   </component>
@@ -235,7 +270,103 @@
       <option name="project" value="LOCAL" />
       <updated>1724504246833</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new solution">
+      <option name="closed" value="true" />
+      <created>1725052373570</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725052373570</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Reverse integer problem">
+      <option name="closed" value="true" />
+      <created>1725192000430</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725192000430</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reverse integer  - solution">
+      <option name="closed" value="true" />
+      <created>1725192941165</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725192941165</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Convert 1D to 2D solution">
+      <option name="closed" value="true" />
+      <created>1725311306340</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725311306340</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Palindrome solution">
+      <option name="closed" value="true" />
+      <created>1725392428898</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1725392428898</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Roman to integer solution">
+      <option name="closed" value="true" />
+      <created>1725394225861</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725394225861</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Integer to roman">
+      <option name="closed" value="true" />
+      <created>1725481639132</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725481639132</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Integer to roman">
+      <option name="closed" value="true" />
+      <created>1725566312235</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1725566312235</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Integer to roman Solution 1">
+      <option name="closed" value="true" />
+      <created>1725603311979</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725603311979</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Integer to roman Solution 2">
+      <option name="closed" value="true" />
+      <created>1725616193590</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725616193590</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Integer to roman Solution 2">
+      <option name="closed" value="true" />
+      <created>1725740323925</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725740323925</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Longest common">
+      <option name="closed" value="true" />
+      <created>1725740344429</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725740344429</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +387,17 @@
     <MESSAGE value="Solution" />
     <MESSAGE value="Remove redundant class" />
     <MESSAGE value="Updated solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated solution" />
+    <MESSAGE value="new solution" />
+    <MESSAGE value="Reverse integer problem" />
+    <MESSAGE value="Reverse integer  - solution" />
+    <MESSAGE value="Convert 1D to 2D solution" />
+    <MESSAGE value="Palindrome solution" />
+    <MESSAGE value="Roman to integer solution" />
+    <MESSAGE value="Integer to roman" />
+    <MESSAGE value="Integer to roman Solution 1" />
+    <MESSAGE value="Integer to roman Solution 2" />
+    <MESSAGE value="Longest common" />
+    <option name="LAST_COMMIT_MESSAGE" value="Longest common" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -271,7 +412,39 @@
           <line>33</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Roman to Integer.py</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Roman to Integer.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/13. Roman to Integer.py</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14. Longest Common Prefix.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/14. Longest Common Prefix.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
